@@ -1,0 +1,23 @@
+{% extends "comedor/index.html"%}
+{% block title %} Menu {% endblock%}
+{% block content %}
+<center><h1>Menu</h1>
+    <table>
+        <tr>
+            <td>turno del menu</td>
+            <td>platillo</td>
+            <td>fecha</td>
+        </tr>
+{% for m in menu %}
+        
+        <tr>
+            <td>{{m.nombre}}</td>
+            <td>{{m.Platillo.nombre}}</td>
+            <td>{{m.Horario}}</td>
+        </tr>
+       
+{% endfor %}
+</table>
+</center>
+    
+{% endblock %}
