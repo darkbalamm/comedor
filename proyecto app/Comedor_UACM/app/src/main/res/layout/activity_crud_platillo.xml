@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Crud_platillo">
+
+    <TextView
+        android:id="@+id/t_c_Platillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crud de platillo" />
+
+    <EditText
+        android:id="@+id/NombrePlatilo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre Platillo"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/AgregarPlatillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Platillo"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/verPlatillos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ver platillos"
+        android:textSize="24sp" />
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Crud_horario">
+
+
+    <TextView
+        android:id="@+id/Crud_horario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crud de Horario"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Nombre_horario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre de Horario"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Hora_inicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora"
+        android:inputType="time"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Minuto_inicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Minuto inicial"
+        android:inputType="time"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Hora_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora final"
+        android:inputType="time"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Minuto_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Minuto final"
+        android:inputType="time"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Agregar_horario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Horario"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/verHorario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Horario"
+        android:textSize="24sp"/>
+</LinearLayout>
